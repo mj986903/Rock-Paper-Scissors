@@ -1,0 +1,87 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+main {
+  text-align: center;
+}
+.head {
+  background-color: #081b31;
+  color: #fff;
+  line-height: 5rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+img {
+  height: 8rem;
+  width: 8rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choice {
+  height: 8.5rem;
+  width: 8.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  background-color: #081b31;
+  cursor: pointer;
+}
+
+.scores {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  font-size: 1.5rem;
+}
+
+#user-score,
+#comp-score {
+  font-size: 3rem;
+}
+
+.msg-container {
+  margin-top: 5rem;
+}
+
+#msg {
+  display: inline;
+  background-color: #081b31;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#reset-btn {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #081b31;
+  color: #fff;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+#reset-btn:hover {
+  cursor: pointer;
+  border: 1px solid red;
+}
